@@ -518,7 +518,7 @@ class Profile_Magic_Public {
                 // Show the error message if it seems to be a disabled user
             $pmrequests = new PM_request;
                 if ( isset( $_GET['disabled'] ) && $_GET['disabled'] == 1 ) 
-                        $message =  '<div id="login_error">' . __( 'Account disabled','profile-grid') . '</div>';
+                        $message =  '<div id="login_error">' . __( 'Account not activate','profile-grid') . '</div>';
                 if ( isset( $_GET['errors'] )) 
                         $message =  '<div id="login_error">' .$pmrequests->profile_magic_get_error_message( $_GET['errors'],'profile-grid'). '</div>';
                 if ( isset( $_GET['activated'] ) && $_GET['activated']=='success') 
