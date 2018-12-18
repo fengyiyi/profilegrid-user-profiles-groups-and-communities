@@ -628,7 +628,7 @@ class PM_request {
 				$message = __( 'You need to enter your email address to continue.','profile-grid');
 				break;
 			case 'account_disabled':
-				$message = __('Account disabled','profile-grid');
+				$message = __('Account not activate','profile-grid');
 				break;
 			case 'payment_pending':
 				$url = __("Your account has been deactivated due to a pending payment. <a href='%s'>Do you wish to pay now?</a>",'profile-grid');
